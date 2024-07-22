@@ -1,0 +1,19 @@
+#!/bin/bash
+#####
+#author: siddhesh
+#date:22 july
+#####
+
+set -exo
+
+#aws s3 list
+aws s3 ls
+
+#aws ec2 list
+aws ec2 describe-instances
+
+#aws iam list
+aws iam list-users
+
+#aws lambda list
+aws lambda list-functions
