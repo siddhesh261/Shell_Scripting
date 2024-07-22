@@ -1,0 +1,13 @@
+#!/bin/bash
+#####
+#author: siddhesh
+#date:22 july
+#####
+
+set -exo
+echo "disk size"
+df -h
+echo "memory size"
+free
+echo "cpu number"
+nproc
